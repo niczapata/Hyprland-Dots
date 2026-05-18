@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
-# ==================================================
-#  KoolDots (2026)
-#  Project URL: https://github.com/LinuxBeginnings
-#  License: GNU GPLv3
-#  SPDX-License-Identifier: GPL-3.0-or-later
-# ==================================================
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
 # Wallpaper Effects using ImageMagick (SUPER SHIFT W)
 
 # Variables
@@ -14,26 +9,17 @@ wallpaper_output="$HOME/.config/hypr/wallpaper_effects/.wallpaper_modified"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 focused_monitor=$(hyprctl monitors -j | jq -r '.[] | select(.focused) | .name')
 rofi_theme="$HOME/.config/rofi/config-wallpaper-effect.rasi"
-if command -v awww >/dev/null 2>&1; then
-    WWW="awww"
-else
-    WWW="swww"
-fi
 
 # Directory for swaync
 iDIR="$HOME/.config/swaync/images"
 iDIRi="$HOME/.config/swaync/icons"
 
-# swww/awww transition config
+# awww transition config
 FPS=60
 TYPE="wipe"
 DURATION=2
 BEZIER=".43,1.19,1,.4"
-if [[ "$WWW" == "swww" || "$WWW" == "awww" ]]; then
-    SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
-else
-    SWWW_PARAMS=""
-fi
+SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
 
 # Define ImageMagick effects
 declare -A effects=(
@@ -59,7 +45,7 @@ declare -A effects=(
 
 # Function to apply no effects
 no-effects() {
-    $WWW img -o "$focused_monitor" "$wallpaper_current" $SWWW_PARAMS &&
+    awww img -o "$focused_monitor" "$wallpaper_current" $SWWW_PARAMS &&
     wait $!
     wallust run "$wallpaper_current" -s &&
     wait $!
@@ -97,7 +83,7 @@ main() {
             done
 
             sleep 1
-            $WWW img -o "$focused_monitor" "$wallpaper_output" $SWWW_PARAMS &
+            awww img -o "$focused_monitor" "$wallpaper_output" $SWWW_PARAMS &
 
             sleep 2
   

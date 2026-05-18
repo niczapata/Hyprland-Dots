@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# /* ---- 💫 https://github.com/LinuxBeginnings 💫 ---- */  #
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
 # A bash script designed to run only once dotfiles installed
 
 # THIS SCRIPT CAN BE DELETED ONCE SUCCESSFULLY BOOTED!! And also, edit ~/.config/hypr/configs/Settings.conf
@@ -17,14 +17,7 @@ gtk_theme="Flat-Remix-GTK-Blue-Dark"
 icon_theme="Flat-Remix-Blue-Dark"
 cursor_theme="Bibata-Modern-Ice"
 
-if command -v awww >/dev/null 2>&1; then
-    WWW="awww"
-    DAEMON="awww-daemon"
-else
-    WWW="swww"
-    DAEMON="swww-daemon"
-fi
-swww="$WWW img"
+awww="awww img"
 effect="--transition-bezier .43,1.19,1,.4 --transition-fps 30 --transition-type grow --transition-pos 0.925,0.977 --transition-duration 2"
 
 # Check if a marker file exists.
@@ -33,8 +26,8 @@ if [ ! -f "$HOME/.config/hypr/.initial_startup_done" ]; then
     # Initialize wallust and wallpaper
 	if [ -f "$wallpaper" ]; then
 		wallust run -s $wallpaper > /dev/null 
-		$WWW query || $DAEMON && $swww $wallpaper $effect
-	    "$scriptsDir/WallustSwww.sh" > /dev/null 2>&1 & 
+		awww query || awww-daemon && $awww $wallpaper $effect
+	    "$scriptsDir/WallustAwww.sh" > /dev/null 2>&1 & 
 	fi
      
     # initiate GTK dark mode and apply icon and cursor theme

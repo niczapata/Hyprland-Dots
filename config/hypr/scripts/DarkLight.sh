@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
-# ==================================================
-#  KoolDots (2026)
-#  Project URL: https://github.com/LinuxBeginnings
-#  License: GNU GPLv3
-#  SPDX-License-Identifier: GPL-3.0-or-later
-# ==================================================
+## /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # For Dark and Light switching
 # Note: Scripts are looking for keywords Light or Dark except for wallpapers as the are in a separate directories
 
@@ -17,8 +12,6 @@ hypr_config_path="$HOME/.config/hypr"
 swaync_style="$HOME/.config/swaync/style.css"
 ags_style="$HOME/.config/ags/user/style.css"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
-# shellcheck source=/dev/null
-. "$SCRIPTSDIR/WallpaperCmd.sh"
 notif="$HOME/.config/swaync/images/bell.png"
 wallust_rofi="$HOME/.config/wallust/templates/colors-rofi.rasi"
 
@@ -38,11 +31,11 @@ for pid in waybar rofi swaync ags swaybg; do
 done
 
 
-# Initialize wallpaper daemon if needed
-"$WWW_CMD" query || "$WWW_DAEMON" "${WWW_DAEMON_ARGS[@]}"
+# Initialize awww if needed
+awww query || awww-daemon --format xrgb
 
-# Set swww options
-swww="$WWW_CMD img"
+# Set awww options
+awww="awww img"
 effect="--transition-bezier .43,1.19,1,.4 --transition-fps 60 --transition-type grow --transition-pos 0.925,0.977 --transition-duration 2"
 
 # Determine current theme mode
@@ -146,8 +139,8 @@ else
     next_wallpaper="$(find -L "${light_wallpapers}" -type f \( -iname "*.jpg" -o -iname "*.png" \) -print0 | shuf -n1 -z | xargs -0)"
 fi
 
-# Update wallpaper using swww command
-$swww "${next_wallpaper}" $effect
+# Update wallpaper using awww command
+$awww "${next_wallpaper}" $effect
 
 
 # Set Kvantum Manager theme & QT5/QT6 settings
@@ -255,7 +248,7 @@ set_custom_gtk_theme "$next_mode"
 update_theme_mode
 
 
-${SCRIPTSDIR}/WallustSwww.sh &&
+${SCRIPTSDIR}/WallustAwww.sh &&
 
 sleep 2
 # kill process

@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
-# ==================================================
-#  KoolDots (2026)
-#  Project URL: https://github.com/LinuxBeginnings
-#  License: GNU GPLv3
-#  SPDX-License-Identifier: GPL-3.0-or-later
-# ==================================================
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
 # Rofi Themes - Script to preview and apply themes by live-reloading the config.
 
 # --- Configuration ---

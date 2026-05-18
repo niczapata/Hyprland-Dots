@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
-# ==================================================
-#  KoolDots (2026)
-#  Project URL: https://github.com/LinuxBeginnings
-#  License: GNU GPLv3
-#  SPDX-License-Identifier: GPL-3.0-or-later
-# ==================================================
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # This is for changing kb_layouts. Set kb_layouts in "$HOME/.config/hypr/UserConfigs/UserSettings.conf"
 
 notif_icon="$HOME/.config/swaync/images/ja.png"

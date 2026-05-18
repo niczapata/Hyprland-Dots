@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-# ==================================================
-#  KoolDots (2026)
-#  Project URL: https://github.com/LinuxBeginnings
-#  License: GNU GPLv3
-#  SPDX-License-Identifier: GPL-3.0-or-later
-# ==================================================
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
 # Rewritten to use Open-Meteo APIs (worldwide, no API key) for robust weather data.
 # Outputs Waybar-compatible JSON and a simple text cache.
 

@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
-# ==================================================
-#  KoolDots (2026)
-#  Project URL: https://github.com/LinuxBeginnings
-#  License: GNU GPLv3
-#  SPDX-License-Identifier: GPL-3.0-or-later
-# ==================================================
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # Script to manage UserConfigs and UserConfigsBak
 
 HYPR_CONFIG_DIR="$HOME/.config/hypr"
