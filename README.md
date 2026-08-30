@@ -1,186 +1,274 @@
-[![jp](https://img.shields.io/badge/lang-jp-blue.svg)](./i18n/README/README.jp.md)
-[![ro](https://img.shields.io/badge/lang-ro-green.svg)](./i18n/README/README.ro.md)
-[![ru](https://img.shields.io/badge/lang-ru-red.svg)](./i18n/README/README.ru.md)
-[![ua](https://img.shields.io/badge/lang-ua-white.svg)](./i18n/README/README.ua.md)
-[![de](https://img.shields.io/badge/lang-de-magenta.svg)](./i18n/README/README.de.md)
-[![fr](https://img.shields.io/badge/lang-fr-cyan.svg)](./i18n/README/README.fr.md)
+<div align="center">
 
-<h3 align="center">
-<img align="center" width="80%" src=https://github.com/user-attachments/assets/bc18bd4d-944b-4d5f-a119-7578fa38f9b4 />
-</h3>
+# 💌 ** KooL's Arch - Hyprland Install Script ** 💌
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/LinuxBeginnings/Hyprland-Dots/main/assets/latte.png" width="400" />
 </p>
 
-<div align="center">
-<br>
-  <a href="#-installationupdate-instructions"><kbd> <br> Installation <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/LinuxBeginnings/Hyprland-Dots/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
-  <a href="https://www.youtube.com/@LinuxBeginnings"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
-  <a href="https://discord.gg/RZJgC7KAKm"><kbd> <br> Discord <br> </kbd></a>&ensp;&ensp;
-  <a href="https://www.youtube.com/playlist?list=PLDtGd5Fw5_GjXCznR0BzCJJDIQSZJRbxx"><kbd> <br> Legacy Jak Videos <br> </kbd></a>&ensp;&ensp;
-</div><br>
-
-<div align="center">
 
 <br/>
 </div>
 
+<div align="center">
+<br>
+  <a href="#-announcement-"><kbd> <br> Read this First <br> </kbd></a>&ensp;&ensp;
+  <a href="#-to-use-this-script"><kbd> <br> How to use this script <br> </kbd></a>&ensp;&ensp;
+  <a href="#gallery-and-videos"><kbd> <br> Gallery <br> </kbd></a>&ensp;&ensp;
+ </div><br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxBeginnings/Hyprland-Dots/main/assets/latte.png" width="200" />
+</p>
+
+<div align="center">
+👇 KOOL's Hyprland-Dots related Links 👇
+<br/>
+</div>
+<div align="center">
+<br>
+  <a href="https://github.com/LinuxBeginnings/Hyprland-Dots"><kbd> <br> Hyprland-Dots repo <br> </kbd></a>&ensp;&ensp;
+  <a href="https://www.youtube.com/playlist?list=PLDtGd5Fw5_GjXCznR0BzCJJDIQSZJRbxx"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/LinuxBeginnings/Hyprland-Dots/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/Keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/FAQ"><kbd> <br> FAQ <br> </kbd></a>&ensp;&ensp;
+  <a href="https://discord.gg/kool-tech-world"><kbd> <br> Discord <br> </kbd></a>
+</div><br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxBeginnings/Hyprland-Dots/main/assets/latte.png" width="200" />
+</p>
+
 <h3 align="center">
-  <img src="https://github.com/LinuxBeginnings/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
-  KooL's Hyprland Dotfiles Showcase
-  <img src="https://github.com/LinuxBeginnings/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
+	<img src="https://github.com/LinuxBeginnings/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
+	KooL Hyprland-Dotfiles Showcase 
+	<img src="https://github.com/LinuxBeginnings/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
 </h3>
 
 <div align="center">
-  <https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872>
+
+https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
+
 </div>
 
----
+### Gallery and Videos
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7077E&vCenter=true&width=435&height=30&lines=INSTALLATION)](https://git.io/typing-svg)
+#### 🎥 Feb 2025 Video explanation of installation with preset
 
-### 🏁 Auto Distro-Hyprland install scripts cloning and starting
+- [YOUTUBE-LINK](https://youtu.be/wQ70lo7P6vA?si=_QcbrNKh_Bg0L3wC)
+- [YOUTUBE-Hyprland-Playlist](https://youtube.com/playlist?list=PLDtGd5Fw5_GjXCznR0BzCJJDIQSZJRbxx&si=iaNjLulFdsZ6AV-t)
 
-> [!CAUTION]
-> If you are using FISH SHELL, DO NOT use this function. Clone the Distro-Hyprland and ran install.sh instead
+### 🪧🪧🪧 ANNOUNCEMENT 🪧🪧🪧
 
-- NOTE: you need package `curl` for this to work
+- This Repo does not contain Hyprland Dots or configs! Dotfiles can be checked here [`Hyprland-Dots`](https://github.com/LinuxBeginnings/Hyprland-Dots) . During installation, if you opt to copy pre-configured dots, it will be downloaded from that centralized repo.
+- Hyprland-Dots use are constantly evolving / improving. you can check CHANGELOGS here [`Hyprland-Dots-Changelogs`](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/Changelogs)
+- Since the Hyprland-Dots are evolving, some of the screenshots maybe old
+- the wallpaper offered to be downloaded towards the end is from this [`REPO`](https://github.com/LinuxBeginnings/Wallpaper-Bank)
 
-```bash
-sh <(curl -L https://raw.githubusercontent.com/LinuxBeginnings/Hyprland-Dots/main/Distro-Hyprland.sh)
-```
-
-- You can use the above command to automatically clone the `Distro-Hyprland` install scripts
-- It will clone the install script and start the `install.sh`
-
-### 👁️‍🗨️ My Hyprland install Scripts
-
-Automated Hyprland Scripts for Distro of choice which will pull this dotfiles if opted to install these configurations
-
-- [Arch-Linux](https://github.com/LinuxBeginnings/Arch-Hyprland)
-
-- [OpenSUSE(Tumbleweed)](https://github.com/LinuxBeginnings/OpenSuse-Hyprland)
-
-- [Fedora-Linux (43/44//Rawhide)](https://github.com/LinuxBeginnings/Fedora-Hyprland)
-
-- [Debian-Linux (Trixie,Testing,SID)](https://github.com/LinuxBeginnings/Debian-Hyprland)
-
-- [NixOS (25.05+)](https://github.com/LinuxBeginnings/NixOS-Hyprland)
-
-- [Ubuntu 24.04 LTS](https://github.com/LinuxBeginnings/Ubuntu-Hyprland/tree/24.04)
-- [Ubuntu 26.04 LTS](https://github.com/LinuxBeginnings/Ubuntu-Hyprland/tree/26.04)
-- No longer supported
-  - [Ubuntu 24.10 (deprecated)](https://github.com/LinuxBeginnings/Ubuntu-Hyprland/tree/24.10)
-  - [Ubuntu 25.04 (deprecated)](https://github.com/LinuxBeginnings/Ubuntu-Hyprland/tree/25.04)
-  - [Ubuntu 25.10 (deprecated )](https://github.com/LinuxBeginnings/Ubuntu-Hyprland/tree/25.10)
-
----
-
-### 🪧 Attention
-
-- This repo does NOT contain or will NOT install any packages. These are only pre-configured-hyprland configs or dotfiles
-- refer to install scripts what packages needed to install... but at least, Hyprland packages are required
-- This repo will be pulled by the Distro-Hyprland install scripts above if you opt to download pre-configured dots
-
-### 👀 Screenshots
-
-- All screenshots are collected here [Screenshots](https://github.com/LinuxBeginnings/screenshots/tree/main/Hyprland-ScreenShots)
-
-### 📦 What's new?
-
-- To easily track changes, I will be updating the [CHANGELOGS](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/Changelogs) Screenshots will be included if worth mentioning the changes!
-
-### 💥 Installation/Update instructions
-
-- [`MORE INFO HERE`](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/Install_&_Update)
-  > [!Note]
-  > The auto copy script `copy.sh` will create backups of intended directories to be copied.
-  > However, it's still a good idea to manually backup just incase script fails to backup your configuration.
-  > If you already have a hyprland configuration, uninstall it first, or create a new user, and install it with that user
-
-> To download from main branch
-
-- Clone this repo by using `git`.
-- Change directory, i.e. `cd Arch-Hyprland`
-- Make `install.sh` executable `chmod +x ./install.sh`
-- Run the script `./install.sh`
-
-> To download from Master branch
-> Note: Ubuntu is exception, it has version specific branches
-
-```bash
-git clone --depth=1 https://github.com/LinuxBeginnings/Hyprland-Dots.git && cd Hyprland-Dots
-```
-
-> To download from Development branch
-> Not recommended for non-testing systems
-
-```bash
-git clone --depth=1 https://github.com/LinuxBeginnings/Hyprland-Dots.git -b development && cd Hyprland-Dots
-```
-
-- automatic copy/install of pre-configured dots (recommended for updating)
-
-```bash
-chmod +x copy.sh
-./copy.sh
-```
-
-#### ⚠️ BACKUPS CREATED by SCRIPT
+> [!IMPORTANT]
+> install a backup tool like `snapper` or `timeshift`. and Backup your system before installing hyprland using this script (HIGHLY RECOMMENDED)
 
 > [!CAUTION]
-> `copy.sh` creates a backup!
-> Kindly investigate manually contents on your `$HOME/.config`
-> Delete manually any backups which you dont want.
+> Download this script on a directory where you have write permissions. ie. HOME. Or any directory within your home directory. Else script will fail
 
-#### 🛎️ a small note on wallpapers
+#### 🆕 Prerequisites
 
-- by default, only few wallpapers will be copied (1 each dark and light plus 3 more). You will be offered to download more wallpapers. You can preview/check the additional wallpapers from this [`LINK`](https://github.com/LinuxBeginnings/Wallpaper-Bank/tree/main/wallpapers)
+- This install script is intended for atleast Server type / Minimal Arch Linux installed.
 
-#### ⚠️ after installing these dots
+> [!NOTE]
+> 🔘 Pipewire and Pipewire audio
 
-- NVIDIA Owners.
-  - After installation, check [`THIS`](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/FAQ_NVIDIA)
-  - Make sure to edit your `~/.config/hypr/UserConfigs/ENVariables.conf` (highly recommended).
-- If you have already set your own keybinds, monitors, etc.... Just copy over from backup created before log-out or reboot. (recommended)
+- This script will install pipewire and will also disable or will uninstall pulseaudio. If you dont want it, edit install.sh, about line 191 and comment the line `execute_script "pipewire.sh"` or you can simply just delete pipewire.sh in install-scripts directory before installing.
 
-#### 🙋 QUESTIONS ?
+#### ✨ Customize the packages to be installed
 
-- FAQ! Yes you can use these dotfiles to other distro! Just ensure to install proper packages first! If it makes you feel better, I use same config on my Gentoo:)
-- QUICK HINT! Click the HINT! Waybar module (only available on some layouts). Also can be launched by keybind `SUPER + H`
-- More question? click here browse through this [WIKI](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/)
+- inside the install-scripts directory, you can edit 00-hypr-pkgs.sh. Care though as the Hyprland Dots may not work properly!
+
+#### 🚩 Switching to SDDM assuming you have GDM installed and running
+
+- if you really want switch to SDDM from GDM, you need to disable the gdm first.
+- `sudo systemctl disable gdm.service` then reboot
+- after reboot, need to ran the install script via tty. So suggest download the install script first. Then disable gdm. reboot and once logged in, cd into Distro-Hyprland then `./install.sh` and then choose SDDM and SDDM theme in the options.
+- NOTE: Distro-Hyprland is Arch-Hyprland, or Fedora-Hyprland .. depends on which install scripts you downloaded.
+
+#### 💫 SDDM and GTK Themes offered
+
+- If you opted to install SDDM theme, here's the [`LINK`](https://github.com/LinuxBeginnings/simple-sddm-2) which is a modified fork of [`LINK`](https://github.com/Keyitdev/sddm-astronaut-theme)
+- If you opted to install GTK Themes, Icons, here's the [`LINK`](https://github.com/LinuxBeginnings/GTK-themes-icons). This also includes Bibata Modern Ice cursor.
+
+#### 👀 Nvidia GPU Owners.
+
+- By default, nvidia-dkms will be installed. and only supports GTX 900 and newer. If required to install older driver, edit the nvidia.sh in install-scripts directory
+
+> [!IMPORTANT]
+> If you want to use nouveau driver, dont choose nvidia in the option. This is because the nvidia installer part, it will blacklist nouveau. Hyprland will still be installed but it will skip blacklisting nouveau.
+
+- After installation, check [`THIS`](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/Notes_to_remember#--for-nvidia-gpu-users)
+
+## ✨ Auto clone and install
+
+> [!CAUTION]
+> If you are using FISH SHELL, DO NOT use this function. Clone and ran install.sh instead
+
+- you can use this command to automatically clone the installer and ran the script for you
+- NOTE: `curl` package is required before running this command
+
+```bash
+sh <(curl -L https://raw.githubusercontent.com/LinuxBeginnings/Arch-Hyprland/main/auto-install.sh)
+```
+
+## ✨ to use this script
+
+- clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script
+
+```bash
+git clone --depth=1 https://github.com/LinuxBeginnings/Arch-Hyprland.git ~/Arch-Hyprland
+cd ~/Arch-Hyprland
+chmod +x install.sh
+./install.sh
+```
+
+### 💥 💥 UNINSTALL SCRIPT / Removal of Config Files
+
+- 11 March 2025, due to popular request, created a guided `uninstall.sh` script. USE this with caution as it may render your system unstable.
+- I will not be responsible if your system breaks
+- The best still to revert to previous state of your system is via `timeshift or snapper`
+
+#### ✨ for ZSH and OH-MY-ZSH installation
+
+> installer should auto change your default shell to zsh. However, if it does not, do this
+
+```bash
+chsh -s $(which zsh)
+zsh
+source ~/.zshrc
+```
+
+- reboot or logout
+- by default `agnosterzak` theme is installed. Which is from external oh-my-zsh theme. You can find more themes from this [`OH-MY-ZSH-THEMES`](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+- to change the theme, `SUPER SHIFT O` , choose desired theme, and close and open terminal.
+- or manually edit `~/.zshrc` . Look for ZSH_THEME="desired theme"
+
+#### 🎞️ AGS Overview DEMO
+
+- in case you wonder, here is a short demo of AGS overview [Youtube LINK](https://youtu.be/zY5SLNPBJTs)
+
+#### ✨ TO DO once installation done and dotfiles copied
+
+- SUPER H for HINT or click on the waybar HINT! Button
+- Head over to [KooL Hyprland WIKI](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki)
+
+#### 🙋 Got a questions regarding the Hyprland Dots or configurations? 🙋
+
+- Head over to wiki Link [`WIKI`](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki)
 
 #### ⌨ Keybinds
 
-- Keybinds [`HERE`](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/Keybinds)
+- Keybinds [`CLICK`](https://github.com/LinuxBeginnings/Hyprland-Dots/wiki/Keybinds)
 
-### ✍️ Contributing
+> [!TIP]
+> KooL Hyprland has a searchable keybind function via rofi. (SUPER SHIFT K) or right click the `HINTS` waybar button
 
-- If you have improvements on the dotfiles or configuration, feel free to submit a PR for improvement.
-- I always welcome improvements as I am also just learning just like you guys!
-- Click [`HERE`](https://github.com/LinuxBeginnings/Hyprland-Dots/blob/main/CONTRIBUTING.md) for a guide how to contribute
+#### 🔄 switching between Hyprland-git and none Hyprland-git
 
-> Thanks to all who have contributed code, or support on the Discord server. Your efforts are greatly appreciated
+- you can use my prepared script [`LINK`](https://github.com/LinuxBeginnings/Arch-Hyprland/tree/main/assets/hyprland-install)
+- Readme is also there
 
-### 🔮 Discord Server
+#### 🙋 👋 Having issues or questions?
 
-- Want to contribute? Click [`HERE`](https://github.com/LinuxBeginnings/Hyprland-Dots/blob/main/CONTRIBUTING.md) for a guide how to contribute
+- for the install part, kindly open issue on this repo
+- for the Pre-configured Hyprland dots / configuration, submit issue [`here`](https://github.com/LinuxBeginnings/Hyprland-Dots/issues)
 
-  > Thanks to all who have contributed code, or support on the Discord server. You efforts are greatly appreciated
+#### 🔧 Proper way to re-installing a particular script from install-scripts directory
 
-- kindly join my [Discord](https://discord.gg/RZJgC7KAKm)
+- CD into Arch-Hyprland directory and then ran the below command.
+- i.e. `./install-scripts/gtk-themes.sh` - For reinstall GTK Themes or
+- `./install-scripts/sddm.sh` - For reinstall sddm
 
-### 💖 Support
+> [!IMPORTANT]
+> DO NOT cd into install-scripts directory as script will most likely to fail
+
+#### 🛠️ Optional system monitor scripts (cross-distro compatible)
+
+- These installer helpers will set up user-level services and install required packages automatically.
+- Works on Fedora, Arch, and other distributions using standard tools.
+- Re-run any time from the repo root (do not `cd` into `install-scripts`).
+
+- `./install-scripts/battery-monitor.sh`
+  - Installs: `acpi`, `libnotify`
+  - Creates: `~/.config/hypr/scripts/battery-monitor.sh` and user service `battery-monitor.service`
+  - Manage: `systemctl --user status|start|stop battery-monitor`
+- `./install-scripts/disk-monitor.sh`
+  - Installs: `libnotify`
+  - Creates: `~/.config/hypr/scripts/disk-monitor.sh` and user service `disk-monitor.service`
+  - Manage: `systemctl --user status|start|stop disk-monitor`
+- `./install-scripts/temp-monitor.sh`
+  - Installs: `lm_sensors`, `libnotify`
+  - Detects sensors (runs `sudo sensors-detect --auto` once)
+  - Creates: `~/.config/hypr/scripts/temp-monitor.sh` and user service `temp-monitor.service`
+  - Manage: `systemctl --user status|start|stop temp-monitor`
+    > Packages above are installed by the respective installer scripts; no manual action is required. If you prefer package pre-install via the main package list, ensure `acpi`, `lm_sensors`, and `libnotify` are present in your setup.
+
+#### 🛣️ Roadmap:
+
+- [ ] show a progress bar in downloading and compiling part when installing outside AUR or official repo
+
+#### ❗ some known issues for nvidia
+
+- reports from members of my discord, states that some users of nvidia are getting stuck on sddm login. credit to @Kenni Fix stated was
+
+```
+ while in sddm press ctrl+alt+F2 or F3
+log into your account
+`lspci -nn`, find the id of your nvidia card
+`ls /dev/dri/by-path` find the matching id
+`ls -l /dev/dri/by-path` to check where the symlink points to
+)
+```
+
+- add "env = WLR_DRM_DEVICES,/dev/dri/cardX" to the ENVvariables config `~/.config/hypr/UserConfigs/ENVariables.conf` ; X being where the symlink of the gpu points to
+
+- more info from the hyprland wiki [`Hyprland Wiki Link`](https://wiki.hyprland.org/FAQ/#my-external-monitor-is-blank--doesnt-render--receives-no-signal-laptop)
+
+- reports from a member of discord for Nvidia for additional env's
+- remove # from the following env's on
+
+```
+env = GBM_BACKEND,nvidia-drm
+env = WLR_RENDERER_ALLOW_SOFTWARE,1
+```
+
+#### ❗ other known issues
+
+- [ ] If you are using this script on an Arch-Based distros like Arco linux, or cachy OS or EOS or Manjaro, make sure to install pipewire, pipewire-pulse & pipewire-audio first. Arco Linux, on some of their ISO's still shipped with pulseaudio as audio backend. You will experience getting "stuck" on installation.
+- [ ] To install pipewire and its services , `sudo pacman -S pipewire wireplumber pipewire-audio pipewire-pulse` . When prompted, remove / replace pulseaudio. After that, you can ran `./install.sh`
+- [ ] installing of cava-git on a newly installed Arch makes the install keep hanging. Switched back to cava. After booting and logged in, if cava dont work, replace it cava-git `yay -S cava-git` or `paru -S cava-git`
+  > [!NOTE]
+  > Auto start of Hyprland after login (no SDDM or GDM or any login managers)
+- [ ] This was disabled a few days ago. (19 May 2024). This was because some users, after they used the Distro-Hyprland scripts with other DE (gnome-wayland or plasma-wayland), if they choose to login into gnome-wayland for example, Hyprland is starting.
+- [ ] to avoid this, I disabled it. You can re-enable again by editing `~/.zprofile` . Remove all the # on the first lines
+- [ ] ROFI issues (scaling, unexplained scaling etc). This is most likely to experience if you are installing on a system where rofi is currently installed. To fix it uninstall rofi and install rofi-wayland . `sudo pacman -Rns rofi` . Install rofi-wayland with `sudo pacman -S rofi-wayland`. Rofi-wayland is compatible with x11 so no need to worry.
+
+#### 🫥 Improving performance for Older Nvidia Cards using driver 470
+
+- [`SEE HERE`](https://github.com/LinuxBeginnings/Hyprland-Dots/discussions/123#discussion-6035205)
+
+#### 📒 Final Notes
+
+- join my discord channel [`Discord`](https://discord.com/invite/kool-tech-world)
+- Feel free to copy, re-distribute, and use this script however you want. Would appreciate if you give me some loves by crediting my work :)
+
+
+#### 👍👍👍 Thanks and Credits!
+
+- [`Hyprland`](https://hyprland.org/) Of course to Hyprland and @vaxerski for this awesome Dynamic Tiling Manager.
+
+## 💖 Support
 
 - a Star on my Github repos would be nice 🌟
-- Subscribe to my Youtube Channel [YouTube](https://www.youtube.com/@LinuxBeginnings)
 
-## 🫰 Thank you for the stars 🩷
+- Subscribe to my Youtube Channel [YouTube](https://www.youtube.com/@Ja.KooLit)
 
-### Document translations
+#### 📹 Youtube videos (Click to view and watch the playlist) 📹
 
-- Spanish: [Código de Conducta](./i18n/CODE_OF_CONDUCT/CODE_OF_CONDUCT.es.md) · [Guía de mensajes de commit](./i18n/COMMIT_MESSAGE_GUIDELINES/COMMIT_MESSAGE_GUIDELINES.es.md) · [Guía de contribución](./i18n/CONTRIBUTING/CONTRIBUTING.es.md)
-
-- French: [Code de Conduite](./i18n/CODE_OF_CONDUCT/CODE_OF_CONDUCT.fr.md) · [Directives pour les messages de commit](./i18n/COMMIT_MESSAGE_GUIDELINES/COMMIT_MESSAGE_GUIDELINES.fr.md) · [Guide de contribution](./i18n/CONTRIBUTING/CONTRIBUTING.fr.md)
+[![Youtube Playlist Thumbnail](https://raw.githubusercontent.com/LinuxBeginnings/screenshots/main/Youtube.png)](https://youtube.com/playlist?list=PLDtGd5Fw5_GjXCznR0BzCJJDIQSZJRbxx&si=iaNjLulFdsZ6AV-t)
